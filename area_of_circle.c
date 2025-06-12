@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main(){
-    int radius,PI=2.14,area;
+    float radius,PI=3.14,area;
     printf("Enter the radius:");
-    scanf("%d,radius");
+    scanf("%f",&radius);
     area=PI*radius*radius;
+    printf("area of circle is:%f",area);
     return 0;
 }
