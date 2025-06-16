@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int id = 1, pid1, pid2, pid3;
@@ -8,14 +7,14 @@ int main()
     int pqty1, pqty2, pqty3;
     float total, discount, disamount, payamount;
 
-    printf("\nEnter Customer Detail :");
+    printf("\nEnter Customer Detail ");
     printf("\nEnter Name : ");
-    scanf("%s", pname1);
+    scanf("%s", cname);
     printf("\nEnter Mobile Number : ");
     scanf("%s", cmob);
 
     // --------------------------------------------------product 1
-    printf("\n Enter Product 1 Details : ");
+    printf("\n Enter Product 1 Details  ");
     pid1 = id++;
     printf("\nEnter Name : ");
     scanf("%s", pname1);
