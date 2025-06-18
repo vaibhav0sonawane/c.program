@@ -45,11 +45,11 @@ int main()
 
     total = (pprice1 * pqty1) + (pprice2 * pqty2) + (pprice3 * pqty3);
 
-    if (total > 10000)
+    if (total > 1000)
         discount = 10;
-    else if (total > 8000)
+    else if (total > 800)
         discount = 7;
-    else if (total > 5000)
+    else if (total > 500)
         discount = 3;
     else
         discount = 0;
